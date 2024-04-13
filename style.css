@@ -1,0 +1,68 @@
+/* CSS for index.html */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: rgb(63,138,251);
+background: radial-gradient(circle, rgba(63,138,251,1) 0%, rgba(0,0,0,1) 100%);
+  color: #333;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #444;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+/* Additional styles */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ff3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
