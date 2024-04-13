@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>News Classification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>News Classification</h1>
+    <form action="/classify" method="POST">
+        <label for="news">Enter a news article for manual testing:</label><br>
+        <textarea id="news" name="news" rows="5" cols="50"></textarea><br><br>
+        <input type="submit" value="Classify">
+    </form>
+
+    {% if results %}
+    <h2>Classification Results:</h2>
+    <p>Logistic Regression: {{ results.lr }}</p>
+    <p>Decision Tree: {{ results.dt }}</p>
+    <p>Gradient Boosting: {{ results.gb }}</p>
+    <p>Random Forest: {{ results.rf }}</p>
+    {% endif %}
+</body>
+</html>
